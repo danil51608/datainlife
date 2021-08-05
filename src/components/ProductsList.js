@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Product from "./Product";
 
 const ProductsList = (props) => {
@@ -7,6 +6,7 @@ const ProductsList = (props) => {
     <>
       {products.map((product) => (
         <Product
+          key={product.gid}
           product={product}
           setInCart={props.setInCart}
           inCart={props.inCart}
