@@ -1,1 +1,1 @@
-# Test challenge for DataInLife interview
+# Test challenge for my 'DataInLife' company interview.
